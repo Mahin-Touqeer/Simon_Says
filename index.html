@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <form class="page logIn logInFront">
+                <div class="inputsDiv usr">
+                    <input type="text" class="inputs userName" required/>
+                    <label class="label_1">username</label>
+                </div>
+                <div class="inputsDiv pass">
+                    <input type="password" class="inputs password" required/>
+                    <label class="label_2">password</label>
+                </div>
+                <button type="submit" class="btn">
+                    <div class="grad">
+
+                    </div>
+                    <h3>Login</h3>
+                </button>
+                <p class="para log_para">
+                    Don't have an account? <a class="anchor sgn">Sign up</a>
+                </p>    
+            </form>
+            <form class="page signUp signUpComes">
+                <div class="inputsDiv usr2">
+                    <input type="text" class="inputs userName2" required/>
+                    <label >username</label>
+                </div>
+                <div class="inputsDiv eml">
+                    <input type="text" class="inputs email" required/>
+                    <label >e-mail</label>
+                </div>
+
+                <div class="inputsDiv pass2">
+                    <input type="password" class="inputs password2" required/>
+                    <label >password</label>
+                </div>
+                <button type="submit" class="btn">
+                    <div class="grad">
+
+                    </div>
+                    <h3>SignUp</h3>
+                </button>
+                <p class="para sgn_para">
+                    Already have an account? <a class="anchor log">Login</a>
+                </p>    
+                
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
